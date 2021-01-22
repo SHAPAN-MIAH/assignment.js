@@ -1,4 +1,5 @@
 
+//https://github.com/SHAPAN-MIAH/assignment.js
 
 // function for convert kilometer to meter...................
 
@@ -86,14 +87,12 @@ function megaFriend (friendNames) {
          let element = friendNames[i];
          if (element.length > largeName.length) {
             largeName = element;
-         } else {
-            console.log(Error!);
          }
-
    }
    return largeName;
 }
-const friends = megaFriend(["", "", "", "", ""]);
+const friends = megaFriend(["", "", ""]);
+
 
 // function for calculate megafriend end.......................
 
