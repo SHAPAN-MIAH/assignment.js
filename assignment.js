@@ -1,5 +1,5 @@
 
-//https://github.com/SHAPAN-MIAH/assignment.js
+
 
 // function for convert kilometer to meter...................
 
