@@ -62,7 +62,7 @@ const calculationTotalBudget = budgetCalculator(10, 14, 17);
          let secondTenDays = 10 * 80;
          let residualDays = days - 20;
          let thirdToInfiniteDays = residualDays * 50;
-         
+
          // calculate total hotel value.................
          hotelValue = firstTenDays + secondTenDays + thirdToInfiniteDays;
 
@@ -87,6 +87,8 @@ function megaFriend (friendNames) {
          let element = friendNames[i];
          if (element.length > largeName.length) {
             largeName = element;
+         } else {
+            console.log(Error!);
          }
 
    }
