@@ -77,7 +77,6 @@ const calculationTotalBudget = budgetCalculator(10, 14, 17);
 
 
 
-
 // function for calculate megafriend.......................
 
 function megaFriend (friendNames) {
