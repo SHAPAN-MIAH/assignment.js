@@ -93,7 +93,6 @@ function megaFriend (friendNames) {
    }
    return largeName;
 }
-
 const friends = megaFriend(["", "", "", "", ""]);
 
 // function for calculate megafriend end.......................
