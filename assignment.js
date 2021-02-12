@@ -1,5 +1,5 @@
 
-
+// https://github.com/SHAPAN-MIAH/assignment.js
 
 // function for convert kilometer to meter...................
 
@@ -12,7 +12,8 @@ function kilometerToMeter (kilometer) {
 };
 const calculateMeter1 = kilometerToMeter(67);
 const calculateMeter2 = kilometerToMeter(93);  
-const calculateMeter3 = kilometerToMeter(174);  
+const calculateMeter3 = kilometerToMeter(174); 
+console.log(calculateMeter1, calculateMeter2, calculateMeter3); 
 // function for convert kilometer to meter end................
 
 
@@ -37,7 +38,8 @@ function budgetCalculator (watch, phone, laptop) {
 
 
 };
-const calculationTotalBudget = budgetCalculator(10, 14, 17);
+const calculationTotalBudget = budgetCalculator(10, 10, 10);
+console.log(calculationTotalBudget);
 // function for budget calculation end.............
 
 
@@ -72,6 +74,7 @@ const calculationTotalBudget = budgetCalculator(10, 14, 17);
 
 }
    const totalHotelCost = hotelCost(25);
+   console.log(totalHotelCost);
    
 // function for calculation hotelcost end....................
 
@@ -91,8 +94,26 @@ function megaFriend (friendNames) {
    }
    return largeName;
 }
-const friends = megaFriend(["", "", ""]);
+const friends = megaFriend(["etewt", "sdteyw", "etetyeyrty"]);
+ console.log(friends);
 
 
 // function for calculate megafriend end.......................
 
+
+
+
+// hello bangla desh we are proud of my country
+function megaFriend (friendNames) {
+   let largeName = [0];
+
+   for (let i = 0; i < friendNames.length; i++) {
+         let element = friendNames[i];
+         if (element.length > largeName.length) {
+            largeName = element;
+         }
+   }
+   return largeName;
+}
+const friends = megaFriend(["etewt", "sdteyw", "etetyeyrty"]);
+ console.log(friends);
